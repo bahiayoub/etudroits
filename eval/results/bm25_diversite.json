@@ -1,0 +1,777 @@
+{
+  "summary": {
+    "global": {
+      "hit@1": 0.7254901960784313,
+      "hit@3": 0.8627450980392157,
+      "hit@5": 0.9411764705882353,
+      "mrr": 0.8080298786181139
+    },
+    "aides": {
+      "hit@1": 0.6666666666666666,
+      "hit@3": 0.8333333333333334,
+      "hit@5": 0.9166666666666666,
+      "mrr": 0.7569444444444445
+    },
+    "alternance": {
+      "hit@1": 0.8333333333333334,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr": 0.9166666666666666
+    },
+    "engagement": {
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr": 1.0
+    },
+    "etudes": {
+      "hit@1": 0.7142857142857143,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "mrr": 0.8571428571428571
+    },
+    "international": {
+      "hit@1": 0.6666666666666666,
+      "hit@3": 0.8333333333333334,
+      "hit@5": 0.8333333333333334,
+      "mrr": 0.7222222222222222
+    },
+    "logement": {
+      "hit@1": 0.5714285714285714,
+      "hit@3": 0.7142857142857143,
+      "hit@5": 1.0,
+      "mrr": 0.7071428571428572
+    },
+    "stage": {
+      "hit@1": 0.8333333333333334,
+      "hit@3": 0.8333333333333334,
+      "hit@5": 0.9166666666666666,
+      "mrr": 0.8619047619047618
+    }
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "category": "stage",
+      "question": "Je suis payé combien de l'heure en stage ?",
+      "expected_fiches": [
+        "F32131",
+        "F16734"
+      ],
+      "rank": 1,
+      "top3": [
+        "F16734",
+        "F32131",
+        "F32131"
+      ]
+    },
+    {
+      "id": "q02",
+      "category": "stage",
+      "question": "Mon stage dure 6 semaines, est-ce que l'entreprise est obligée de me payer ?",
+      "expected_fiches": [
+        "F32131",
+        "F16734"
+      ],
+      "rank": 1,
+      "top3": [
+        "F32131",
+        "F32131",
+        "F16734"
+      ]
+    },
+    {
+      "id": "q03",
+      "category": "stage",
+      "question": "Est-ce que je dois payer des cotisations sociales sur ma gratification de stage ?",
+      "expected_fiches": [
+        "F32131"
+      ],
+      "rank": 1,
+      "top3": [
+        "F32131",
+        "F32131",
+        "F16734"
+      ]
+    },
+    {
+      "id": "q04",
+      "category": "stage",
+      "question": "Est-ce que je peux faire mon stage dans une mairie ou un ministère ?",
+      "expected_fiches": [
+        "F637"
+      ],
+      "rank": 7,
+      "top3": [
+        "F15077",
+        "F34964",
+        "F34964"
+      ]
+    },
+    {
+      "id": "q05",
+      "category": "stage",
+      "question": "Combien de stagiaires une entreprise peut-elle accueillir en même temps ?",
+      "expected_fiches": [
+        "F16734"
+      ],
+      "rank": 1,
+      "top3": [
+        "F16734",
+        "F16734",
+        "F32131"
+      ]
+    },
+    {
+      "id": "q06",
+      "category": "stage",
+      "question": "Quelle est la durée maximum d'un stage dans la même entreprise ?",
+      "expected_fiches": [
+        "F16734",
+        "F637"
+      ],
+      "rank": 1,
+      "top3": [
+        "F16734",
+        "F16734",
+        "F637"
+      ]
+    },
+    {
+      "id": "q07",
+      "category": "stage",
+      "question": "Est-ce que j'ai droit à des jours de congé pendant mon stage ?",
+      "expected_fiches": [
+        "F16734"
+      ],
+      "rank": 5,
+      "top3": [
+        "F13278",
+        "F13278",
+        "F2918"
+      ]
+    },
+    {
+      "id": "q08",
+      "category": "stage",
+      "question": "Si l'entreprise m'embauche après mon stage, ma période d'essai est-elle raccourcie ?",
+      "expected_fiches": [
+        "F13879"
+      ],
+      "rank": 1,
+      "top3": [
+        "F13879",
+        "F13879",
+        "F16734"
+      ]
+    },
+    {
+      "id": "q09",
+      "category": "stage",
+      "question": "Mon stage compte-t-il dans mon ancienneté si je suis embauché ensuite ?",
+      "expected_fiches": [
+        "F34857"
+      ],
+      "rank": 1,
+      "top3": [
+        "F34857",
+        "F34857",
+        "F13879"
+      ]
+    },
+    {
+      "id": "q10",
+      "category": "stage",
+      "question": "En tant que stagiaire, est-ce que j'ai accès aux chèques vacances et avantages du CSE ?",
+      "expected_fiches": [
+        "F13881"
+      ],
+      "rank": 1,
+      "top3": [
+        "F13881",
+        "F16734",
+        "F16734"
+      ]
+    },
+    {
+      "id": "q11",
+      "category": "stage",
+      "question": "Comment faire un stage dans une institution de l'Union européenne ?",
+      "expected_fiches": [
+        "F384"
+      ],
+      "rank": 1,
+      "top3": [
+        "F384",
+        "F384",
+        "F463"
+      ]
+    },
+    {
+      "id": "q12",
+      "category": "stage",
+      "question": "Je veux faire mon stage dans une entreprise en Espagne, quelles démarches ?",
+      "expected_fiches": [
+        "F382"
+      ],
+      "rank": 1,
+      "top3": [
+        "F382",
+        "F382",
+        "F2326"
+      ]
+    },
+    {
+      "id": "q13",
+      "category": "aides",
+      "question": "Comment faire ma demande de bourse sur critères sociaux ?",
+      "expected_fiches": [
+        "F12216",
+        "F12214"
+      ],
+      "rank": 1,
+      "top3": [
+        "F12214",
+        "F12214",
+        "F12216"
+      ]
+    },
+    {
+      "id": "q14",
+      "category": "aides",
+      "question": "Je suis boursier, est-ce que j'ai le droit de travailler à côté de mes études ?",
+      "expected_fiches": [
+        "F18291"
+      ],
+      "rank": null,
+      "top3": [
+        "F2865",
+        "F33072",
+        "F34964"
+      ]
+    },
+    {
+      "id": "q15",
+      "category": "aides",
+      "question": "Est-ce que je continue à toucher ma bourse pendant les vacances d'été ?",
+      "expected_fiches": [
+        "F12215"
+      ],
+      "rank": 1,
+      "top3": [
+        "F12215",
+        "F12214",
+        "F12215"
+      ]
+    },
+    {
+      "id": "q16",
+      "category": "aides",
+      "question": "J'ai eu mention très bien au bac, est-ce qu'il y a une aide financière ?",
+      "expected_fiches": [
+        "F1010"
+      ],
+      "rank": 1,
+      "top3": [
+        "F1010",
+        "F1010",
+        "F38579"
+      ]
+    },
+    {
+      "id": "q17",
+      "category": "aides",
+      "question": "Je n'ai plus d'argent pour manger ce mois-ci, existe-t-il une aide d'urgence pour étudiant ?",
+      "expected_fiches": [
+        "F34073",
+        "F1024"
+      ],
+      "rank": 2,
+      "top3": [
+        "F38630",
+        "F1024",
+        "F31704"
+      ]
+    },
+    {
+      "id": "q18",
+      "category": "aides",
+      "question": "Je suis en rupture familiale, quelle aide annuelle puis-je demander ?",
+      "expected_fiches": [
+        "F1024"
+      ],
+      "rank": 1,
+      "top3": [
+        "F1024",
+        "F12006",
+        "F12006"
+      ]
+    },
+    {
+      "id": "q19",
+      "category": "aides",
+      "question": "Comment obtenir un prêt étudiant sans que mes parents se portent caution ?",
+      "expected_fiches": [
+        "F986"
+      ],
+      "rank": 1,
+      "top3": [
+        "F986",
+        "F986",
+        "F38630"
+      ]
+    },
+    {
+      "id": "q20",
+      "category": "aides",
+      "question": "Est-ce qu'un étudiant peut toucher le RSA ?",
+      "expected_fiches": [
+        "F1971"
+      ],
+      "rank": 4,
+      "top3": [
+        "F15478",
+        "F15478",
+        "F33173"
+      ]
+    },
+    {
+      "id": "q21",
+      "category": "aides",
+      "question": "Un stagiaire ou un apprenti peut-il toucher la prime d'activité ?",
+      "expected_fiches": [
+        "F33375"
+      ],
+      "rank": 1,
+      "top3": [
+        "F33375",
+        "F33375",
+        "F38630"
+      ]
+    },
+    {
+      "id": "q22",
+      "category": "aides",
+      "question": "Je dois déménager dans une autre région après Parcoursup, y a-t-il une aide ?",
+      "expected_fiches": [
+        "F34643"
+      ],
+      "rank": 1,
+      "top3": [
+        "F34643",
+        "F34343",
+        "F38630"
+      ]
+    },
+    {
+      "id": "q23",
+      "category": "aides",
+      "question": "Quelles sont toutes les aides financières pour un étudiant ?",
+      "expected_fiches": [
+        "F32456",
+        "F38579"
+      ],
+      "rank": 3,
+      "top3": [
+        "F2326",
+        "F2326",
+        "F38579"
+      ]
+    },
+    {
+      "id": "q24",
+      "category": "aides",
+      "question": "C'est quoi les bourses Talents ?",
+      "expected_fiches": [
+        "F17482"
+      ],
+      "rank": 1,
+      "top3": [
+        "F17482",
+        "F17482",
+        "F32456"
+      ]
+    },
+    {
+      "id": "q25",
+      "category": "logement",
+      "question": "Je suis en colocation, est-ce que je peux toucher l'APL ?",
+      "expected_fiches": [
+        "F12006",
+        "F1563"
+      ],
+      "rank": 1,
+      "top3": [
+        "F12006",
+        "F12006",
+        "F33173"
+      ]
+    },
+    {
+      "id": "q26",
+      "category": "logement",
+      "question": "Quelle est la différence entre l'APL, l'ALS et l'ALF ?",
+      "expected_fiches": [
+        "F31864"
+      ],
+      "rank": 2,
+      "top3": [
+        "F32384",
+        "F31864",
+        "F32384"
+      ]
+    },
+    {
+      "id": "q27",
+      "category": "logement",
+      "question": "Je loue l'appartement de mon oncle, est-ce que j'ai droit à l'aide au logement ?",
+      "expected_fiches": [
+        "F32384"
+      ],
+      "rank": 1,
+      "top3": [
+        "F32384",
+        "F12006",
+        "F12006"
+      ]
+    },
+    {
+      "id": "q28",
+      "category": "logement",
+      "question": "Si je demande l'APL, mes parents perdent-ils leurs allocations familiales pour moi ?",
+      "expected_fiches": [
+        "F1563"
+      ],
+      "rank": 1,
+      "top3": [
+        "F1563",
+        "F32384",
+        "F1563"
+      ]
+    },
+    {
+      "id": "q29",
+      "category": "logement",
+      "question": "Comment obtenir une chambre en résidence universitaire Crous ?",
+      "expected_fiches": [
+        "F31912",
+        "F12216"
+      ],
+      "rank": 1,
+      "top3": [
+        "F31912",
+        "F31912",
+        "F12006"
+      ]
+    },
+    {
+      "id": "q30",
+      "category": "logement",
+      "question": "Je suis alternant, existe-t-il une aide pour payer mon loyer ?",
+      "expected_fiches": [
+        "F33173"
+      ],
+      "rank": 4,
+      "top3": [
+        "F12006",
+        "F12006",
+        "F38630"
+      ]
+    },
+    {
+      "id": "q31",
+      "category": "logement",
+      "question": "Je n'arrive plus à payer mon loyer, est-ce que je vais perdre mon APL ?",
+      "expected_fiches": [
+        "F32037"
+      ],
+      "rank": 5,
+      "top3": [
+        "F12006",
+        "F12006",
+        "F1563"
+      ]
+    },
+    {
+      "id": "q32",
+      "category": "alternance",
+      "question": "Combien est payé un apprenti ?",
+      "expected_fiches": [
+        "F2918"
+      ],
+      "rank": 1,
+      "top3": [
+        "F2918",
+        "F3059",
+        "F3059"
+      ]
+    },
+    {
+      "id": "q33",
+      "category": "alternance",
+      "question": "Quelle est la différence entre un contrat d'apprentissage et un contrat de professionnalisation ?",
+      "expected_fiches": [
+        "F31704"
+      ],
+      "rank": 1,
+      "top3": [
+        "F31704",
+        "F15478",
+        "F15478"
+      ]
+    },
+    {
+      "id": "q34",
+      "category": "alternance",
+      "question": "J'ai un conflit avec mon employeur pendant mon apprentissage, qui peut m'aider ?",
+      "expected_fiches": [
+        "F31633"
+      ],
+      "rank": 1,
+      "top3": [
+        "F31633",
+        "F3059",
+        "F38630"
+      ]
+    },
+    {
+      "id": "q35",
+      "category": "alternance",
+      "question": "Est-ce que le salaire d'un apprenti est imposable ?",
+      "expected_fiches": [
+        "F11249"
+      ],
+      "rank": 1,
+      "top3": [
+        "F11249",
+        "F11249",
+        "F2918"
+      ]
+    },
+    {
+      "id": "q36",
+      "category": "alternance",
+      "question": "Quelles aides financières existent quand on est apprenti ?",
+      "expected_fiches": [
+        "F38630"
+      ],
+      "rank": 2,
+      "top3": [
+        "F38579",
+        "F38630",
+        "F34643"
+      ]
+    },
+    {
+      "id": "q37",
+      "category": "alternance",
+      "question": "Est-ce qu'on peut faire un contrat de professionnalisation après 26 ans ?",
+      "expected_fiches": [
+        "F15478"
+      ],
+      "rank": 1,
+      "top3": [
+        "F15478",
+        "F15478"
+      ]
+    },
+    {
+      "id": "q38",
+      "category": "etudes",
+      "question": "Combien coûtent les frais d'inscription à l'université ?",
+      "expected_fiches": [
+        "F2865"
+      ],
+      "rank": 2,
+      "top3": [
+        "F33072",
+        "F2865",
+        "F2865"
+      ]
+    },
+    {
+      "id": "q39",
+      "category": "etudes",
+      "question": "Est-ce que je peux faire une année de césure pendant mon master ?",
+      "expected_fiches": [
+        "F33072"
+      ],
+      "rank": 1,
+      "top3": [
+        "F33072",
+        "F33072",
+        "F34343"
+      ]
+    },
+    {
+      "id": "q40",
+      "category": "etudes",
+      "question": "Je me suis trompé de licence, est-ce que je peux changer de filière en cours d'année ?",
+      "expected_fiches": [
+        "F31063"
+      ],
+      "rank": 1,
+      "top3": [
+        "F31063",
+        "F23476",
+        "F2865"
+      ]
+    },
+    {
+      "id": "q41",
+      "category": "etudes",
+      "question": "Comment fonctionne la Sécurité sociale pour un étudiant ?",
+      "expected_fiches": [
+        "F675"
+      ],
+      "rank": 2,
+      "top3": [
+        "F3059",
+        "F675",
+        "F2865"
+      ]
+    },
+    {
+      "id": "q42",
+      "category": "etudes",
+      "question": "Y a-t-il des réductions sur les billets de train pour les étudiants ?",
+      "expected_fiches": [
+        "F34964"
+      ],
+      "rank": 1,
+      "top3": [
+        "F34964",
+        "F34964",
+        "F382"
+      ]
+    },
+    {
+      "id": "q43",
+      "category": "etudes",
+      "question": "C'est quoi le statut étudiant-entrepreneur ?",
+      "expected_fiches": [
+        "F32313"
+      ],
+      "rank": 1,
+      "top3": [
+        "F32313",
+        "F32313",
+        "F13278"
+      ]
+    },
+    {
+      "id": "q44",
+      "category": "etudes",
+      "question": "Je suis étudiant en situation de handicap, quel accompagnement à l'université ?",
+      "expected_fiches": [
+        "F2326",
+        "F33865"
+      ],
+      "rank": 1,
+      "top3": [
+        "F2326",
+        "F2326",
+        "F380"
+      ]
+    },
+    {
+      "id": "q45",
+      "category": "international",
+      "question": "Comment partir étudier un semestre à l'étranger avec Erasmus ?",
+      "expected_fiches": [
+        "F378"
+      ],
+      "rank": 3,
+      "top3": [
+        "F2326",
+        "F2326",
+        "F378"
+      ]
+    },
+    {
+      "id": "q46",
+      "category": "international",
+      "question": "Existe-t-il une aide financière pour étudier à l'étranger ?",
+      "expected_fiches": [
+        "F380",
+        "F15077",
+        "F378"
+      ],
+      "rank": null,
+      "top3": [
+        "F38579",
+        "F38630",
+        "F38579"
+      ]
+    },
+    {
+      "id": "q47",
+      "category": "international",
+      "question": "Je suis boursier et je change de région pour mon master 1, est-ce qu'il y a une aide ?",
+      "expected_fiches": [
+        "F34343"
+      ],
+      "rank": 1,
+      "top3": [
+        "F34343",
+        "F32456",
+        "F34343"
+      ]
+    },
+    {
+      "id": "q48",
+      "category": "international",
+      "question": "Je suis étudiant étranger hors UE, combien d'heures par an je peux travailler ?",
+      "expected_fiches": [
+        "F2713"
+      ],
+      "rank": 1,
+      "top3": [
+        "F2713",
+        "F2713",
+        "F13519"
+      ]
+    },
+    {
+      "id": "q49",
+      "category": "international",
+      "question": "Quel titre de séjour faut-il pour venir étudier en France ?",
+      "expected_fiches": [
+        "F2231"
+      ],
+      "rank": 1,
+      "top3": [
+        "F2231",
+        "F22116",
+        "F2231"
+      ]
+    },
+    {
+      "id": "q50",
+      "category": "international",
+      "question": "Après mon master en France, je peux rester pour chercher du travail ?",
+      "expected_fiches": [
+        "F2229"
+      ],
+      "rank": 1,
+      "top3": [
+        "F2229",
+        "F2229",
+        "F2863"
+      ]
+    },
+    {
+      "id": "q51",
+      "category": "engagement",
+      "question": "Combien est payé un volontaire en service civique ?",
+      "expected_fiches": [
+        "F13278"
+      ],
+      "rank": 1,
+      "top3": [
+        "F13278",
+        "F13278"
+      ]
+    }
+  ]
+}

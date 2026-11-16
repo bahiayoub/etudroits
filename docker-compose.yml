@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    image: etudroits
+    env_file:
+      - path: .env
+        required: false        # le projet démarre même sans clé API
+    volumes:
+      - .:/app                 # ton code est partagé en direct avec le conteneur
+      - hf-cache:/cache/huggingface   # le modèle d'embedding n'est téléchargé qu'une fois
+    ports:
+      - "7860:7860"            # pour l'interface web (Jour 3)
+
+volumes:
+  hf-cache:

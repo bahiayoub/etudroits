@@ -1,0 +1,9 @@
+requests
+tqdm
+sentence-transformers
+chromadb
+openai>=1.40
+python-dotenv
+rank-bm25
+snowballstemmer
+pytest
